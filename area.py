@@ -8,4 +8,5 @@ def circle_area():
     #calculates the area using the formula Area = π * radius^2
     area = math.pi * (radius ** 2)
     print(f"""The radius of your circle is {radius}
-    The calculated area of your circle is {area}""")
+The calculated area of your circle is {round(area, 2)}""")
+circle_area()
